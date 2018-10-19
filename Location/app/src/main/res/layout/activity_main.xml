@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.salahuddin.location.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/latitude"
+        android:text=""
+        android:textColor="#252121"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/getLocationBtn"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/longitude"
+        android:text=""
+        android:textColor="#252121"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/getLocationBtn"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showId"
+        android:text="Show"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"/>
+
+
+
+</LinearLayout>
